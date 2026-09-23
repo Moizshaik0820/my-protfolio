@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #000000;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #03ffea;
+            color: #000000;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+        }
+
+        nav a {
+            color: #fd0000;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: #040200;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(250, 2, 2);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #03ffea;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #ff0202;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #03ffea;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+
+            <img src="./image.jpg" alt="My Profile Picture" class="profile-img">
+
+            <h2>Hello, There I'm a 1st Year Student!</h2>
+            <strong><p>Welcome to my personal portfolio website. Here you can learn a bit about who I am,
+                where I am studying, and how to get in touch with me.
+                Feel free to explore using the menu above on the top wright corner !</p></strong>
+        </div>
+    </main>
+    <footer>
+        &copy; 2026 My Portfolio. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
